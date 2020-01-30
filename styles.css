@@ -1,0 +1,84 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+  background-color: blue;
+}
+
+.main-wrapper-mobile {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #89f191bf; */
+    display: grid;
+    grid-template-rows: 30vh 50vh;
+    position: absolute;
+}
+#main-header {
+  text-align: center;
+  font-size: 10vw;
+  position: relative;
+  top: 5vh;
+}
+.nav-container {
+    text-align: center;
+    /* background: blueviolet; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+
+}
+.spacer {
+   margin: 0 auto;
+    height: 4px;
+    width: 60vw;
+    background-color: black;
+}
+.nav-link {
+  display: block;
+  font-size: 8vw;
+}
