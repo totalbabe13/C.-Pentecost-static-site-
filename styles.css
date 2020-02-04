@@ -47,17 +47,10 @@ table {
 	border-spacing: 0;
 }
 
-/* html{
-  background: url("assets/home_image_vertical.jpg") no-repeat center center fixed;
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-} */
-
 * {
   box-sizing: border-box;
 }
+
 html{
   background: url("assets/home_image.jpg") no-repeat center center fixed;
  -webkit-background-size: cover;
