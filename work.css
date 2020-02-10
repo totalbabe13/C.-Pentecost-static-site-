@@ -64,53 +64,53 @@ table {
     height: 90vh;
     width: 100vw;
     margin: 0 auto;
-    border: 1px solid;
-    overflow: scroll;
     display: grid;
-    grid-auto-rows: 16vw;
-    grid-template-columns: 3vw auto;
+    grid-auto-rows: 13vh;
+		overflow-x: hidden; //horizontal
+	  overflow-y: scroll; //vertical
+
+		/* border: 1px solid; */
+  }
+
+	.work-item.portrait{
+		position: relative;
+    display: grid;
+    grid-template-rows: 5vh 5vh;
+    grid-template-columns: 7vw 93vw;
   }
 
   .bullet {
     align-self: center;
     grid-row-end: span 2;
     position: relative;
-    top: 7%;
     left: 80%;
   }
 
-  .work-item.portrait{
-    position: relative;
-    grid-row-end: span 2;
-    align-self: center;
-    width: 100%;
-  }
-
-  .test{
-
-  }
-
   .work-item-title {
-    text-align: justify;
-    width: 84%;
-    padding-bottom: 1vh;
+		grid-row-start: 1;
+    grid-column-start: 2;
+    align-self: center;
     position: relative;
-    font-size: 16pt;
-    margin: 0px auto;
+    left: 7%;
   }
 
   .spacer.portrait {
+		position: relative;
+    left: -5vw;
+    grid-row-start: 1;
+    grid-column-start: 2;
     width: 70vw;
+    height: 0;
     margin: 0 auto;
     border: 1px solid;
+    align-self: end;
   }
 
   .work-item-date {
-    text-align: justify;
-    width: 84%;
-    padding-top: 1vh;
+		grid-row-start: 2;
+		grid-column-start: 2;
+		align-self: center;
     position: relative;
-    font-size: 16pt;
-    margin: 0px auto;
+    left: 7%;
   }
 }
