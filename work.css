@@ -57,12 +57,12 @@ table {
   #work-header{
     margin: 3vh;
     text-align: center;
-    border: 1px solid;
+    /* border: 1px solid; */
   }
 
   .main-wrapper.portrait{
     height: 90vh;
-    width: 87vw;
+    width: 100vw;
     margin: 0 auto;
     border: 1px solid;
     overflow: scroll;
@@ -87,7 +87,7 @@ table {
   }
 
   .test{
-    
+
   }
 
   .work-item-title {
