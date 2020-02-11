@@ -51,6 +51,15 @@ table {
   box-sizing: border-box;
 }
 
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+	text-decoration: none;
+}
 /* - - - - - - - - - - - - - - - - - - - -  */
 /* IPHONE 5 Small mobile - PORTRAIT */
 @media all and (min-width: 319px) {
@@ -376,7 +385,6 @@ table {
 .work-item {
 	transition: 0.8s;
 }
-
 
 .work-item:hover {
 	  transition-timing-function: linear;

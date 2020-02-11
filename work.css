@@ -50,11 +50,36 @@ table {
 * {
   box-sizing: border-box;
 }
+a {
+	color: black;
 
+}
+a:visited {
+	color: black;
+}
+
+.work-title {
+	transition: 0.8s;
+}
+
+.work-title:hover {
+	  transition-timing-function: linear;
+	  background-color: #bcfac87d;
+    box-shadow: inset 16px -43px 22px 47px #ffffff;
+}
+
+html{
+  /* background: url("assets/drops2.jpg") no-repeat center center fixed;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover; */
+}
 /* - - - - - - - - - - - - - - - - - - - -  */
 /* IPHONE 5 Small mobile - PORTRAIT */
 @media all and (min-width: 319px){
 	#work-header{
+		color: black;
 		margin: 3vh;
 		text-align: center;
 	}
@@ -72,6 +97,7 @@ table {
 	}
 
 	.work-item{
+		align-self: center;
 		width: 88vw;
 		position: relative;
 		display: grid;
@@ -80,6 +106,7 @@ table {
 	}
 
 	.bullet {
+		color: black;
 		align-self: center;
 		grid-row-end: span 2;
 		position: relative;
@@ -87,6 +114,7 @@ table {
 	}
 
 	.work-item-title {
+		color: black;
 		font-size: 11pt;
 		grid-row-start: 1;
 		grid-column-start: 2;
@@ -96,6 +124,7 @@ table {
 	}
 
 	.spacer {
+		color: black;
 		position: relative;
 		left: -5vw;
 		grid-row-start: 1;
@@ -108,6 +137,7 @@ table {
 	}
 
 	.work-item-date {
+		color: black;
 		font-size: 11pt;
 		grid-row-start: 2;
 		grid-column-start: 2;
@@ -127,15 +157,16 @@ table {
 		height: 90vh;
 		width: 87vw;;
 		position: relative;
-    top: 6vh;
+    /* top: 6vh; */
 		margin: 0 auto;
 		display: grid;
-		grid-auto-rows: 23vh;
+		grid-auto-rows: 20vh;
 		overflow-x: hidden;
 		overflow-y: scroll;
 	}
 
 	.work-item{
+		align-self: center;
 		width: 88vw;
 		position: relative;
 		display: grid;
@@ -190,9 +221,9 @@ table {
 		font-size: 17pt;
 	}
 	.main-wrapper{
-		hheight: 90vh;
+		height: 90vh;
     width: 100vw;
-    margin: 0 auto;
+    margin: 2.5vh auto;
     display: grid;
     grid-auto-rows: 22vh;
     overflow-x: hidden;
@@ -377,15 +408,4 @@ table {
 		position: relative;
 		left: 7%;
 	}
-}
-
-.work-item {
-	transition: 0.8s;
-}
-
-
-.work-item:hover {
-	  transition-timing-function: linear;
-	  background-color: #bcfac87d;
-    box-shadow: inset 16px -43px 22px 47px #ffffff;
 }
